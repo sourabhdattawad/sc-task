@@ -51,7 +51,7 @@ Goto http://localhost.com/api-docs for swaggwer
 #### Test examples
 #####  /user/authenticate
 Click on try
-Fill the request object
+and fill the request object.<br />
 Ex:
 
 ```sh
@@ -64,7 +64,7 @@ returns JWT token on success
 
 #####   /admin/json-patch
 Click on try
-Fill the request object
+and fill the request object.<br />
 Ex:
 
 ```sh
@@ -78,7 +78,7 @@ returns JSON patched object on success
 
 #####  /admin/create-thumbnail
 Click on try
-Fill the request object
+and fill the request object.<br />
 Ex:
 
 ```sh
