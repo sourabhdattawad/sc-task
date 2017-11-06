@@ -1,0 +1,40 @@
+{
+    "name": "socialcops",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.babel.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha ./src/test --recursive",
+        "start": "node server.babel.js",
+        "coverage": "istanbul cover --no-default-excludes -x '**/node_modules/**' _mocha ./src/test/* ",
+        "showcoverage": "xdg-open ./coverage/lcov-report/index.html",
+        "opendocs": "xdg-open ./out/global.html",
+        "generatedocs": "./node_modules/.bin/jsdoc ./src/*"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "bluebird": "^3.5.1",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "jsonpatch": "^3.0.1",
+        "jsonwebtoken": "^8.1.0",
+        "sharp": "^0.18.4",
+        "swagger-jsdoc": "^1.9.7",
+        "underscore": "^1.8.3",
+        "uuid": "^3.1.0",
+        "valid-url": "^1.0.9",
+        "winston": "^2.4.0"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "chai-http": "^3.0.0",
+        "istanbul": "^0.4.5",
+        "jsdoc": "^3.5.5",
+        "mocha": "^4.0.1"
+    }
+}
