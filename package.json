@@ -4,12 +4,12 @@
     "description": "",
     "main": "server.babel.js",
     "scripts": {
-        "test": "./node_modules/.bin/mocha ./src/test --recursive",
+        "test": "./node_modules/.bin/mocha ./test --recursive",
         "start": "node server.babel.js",
-        "coverage": "istanbul cover --no-default-excludes -x '**/node_modules/**' _mocha ./src/test/* ",
+        "coverage": "istanbul cover --no-default-excludes -x '**/node_modules/**' _mocha ./test/* ",
         "showcoverage": "xdg-open ./coverage/lcov-report/index.html",
         "opendocs": "xdg-open ./out/global.html",
-        "generatedocs": "./node_modules/.bin/jsdoc ./src/*"
+        "generatedocs": "./node_modules/.bin/jsdoc ./*"
     },
     "keywords": [],
     "author": "",
